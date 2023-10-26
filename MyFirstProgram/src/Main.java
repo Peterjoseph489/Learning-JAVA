@@ -34,6 +34,10 @@ public class Main {
 		double e = 3.14;
 		System.out.println(e);
 		
+		boolean z = true;
+		
+		
+		
 		
 		
 		
@@ -53,3 +57,11 @@ public class Main {
 	}
  
 }
+
+
+
+
+
+
+
+
