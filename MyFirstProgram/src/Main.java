@@ -35,6 +35,13 @@ public class Main {
 		System.out.println(e);
 		
 		boolean z = true;
+		System.out.println(z);
+		
+		char symbol = '@';
+		System.out.println(symbol);
+		
+		String name = "Joseph Peter";
+		System.out.println("Hello "+name);
 		
 		
 		
