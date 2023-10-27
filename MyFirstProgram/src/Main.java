@@ -59,6 +59,11 @@ public class Main {
 		String x = "water";
 		String y = "Kool-Aid";
 		
+		String temp = x;
+		x=y;
+		y=temp;
+		
+		
 		System.out.println("x: "+x);
 		System.out.println("y: "+y);
 		
