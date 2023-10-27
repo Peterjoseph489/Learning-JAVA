@@ -22,5 +22,23 @@ public class Expression {
 		System.out.println(friends);
 		
 		
+		
+		
+		
+		int haters = 10;
+		
+		haters = haters / 3;
+		System.out.println(haters);
+		
+		
+		
+		double colleagues = 10;
+		
+		colleagues = colleagues / 3;
+		System.out.println(colleagues);
+		
+		
+		
+		
 	}
 }
