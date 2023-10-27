@@ -13,8 +13,8 @@ public class Main {
 		System.out.      println();
 		
 		
-		int x; //declaration
-		x = 123; //assignment
+		int k; //declaration
+		k = 123; //assignment
 		
 		int a = 123; //initialization
 		
@@ -44,11 +44,6 @@ public class Main {
 		System.out.println("Hello "+name);
 		
 		
-		
-		
-		
-		
-		
 		// This is a comment.
 		
 		/*
@@ -58,6 +53,15 @@ public class Main {
 		 * comment.
 		 * 
 		 */
+		
+		
+		
+		String x = "water";
+		String y = "Kool-Aid";
+		
+		System.out.println("x: "+x);
+		System.out.println("y: "+y);
+		
 		
 		
 		
