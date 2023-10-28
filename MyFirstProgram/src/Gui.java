@@ -4,7 +4,7 @@ public class Gui {
 
 	public static void main(String[] args) {
         String name = JOptionPane.showInputDialog("Enter your name"); 
-        // Your code logic here
+        JOptionPane.showMessageDialog(null, "Hello "+name);
         
     }
 }
