@@ -1,30 +1,50 @@
+import java.util.Scanner;
 
 public class MathMethods {
 
 	public static void main(String[] args) {
 		
-		double x = 3.14;
-		double y = -10;
+//		double x = 3.14;
+//		double y = -10;
+//		
+//		double z = Math.max(x, y);
+//		System.out.println(z);
+//		
+//		double a = Math.min(x, y);
+//		System.out.println(a);
+//		
+//		double b = Math.abs(y);
+//		System.out.println(b);
+//		
+//		double c = Math.sqrt(x);
+//		System.out.println(c);
+//		
+//		double d = Math.round(x);
+//		System.out.println(d);
+//		
+//		double e = Math.ceil(x);
+//		System.out.println(e);
+//		
+//		double f = Math.floor(x);
+//		System.out.println(f);
 		
-		double z = Math.max(x, y);
-		System.out.println(z);
+		double x;
+		double y;
+		double z;
 		
-		double a = Math.min(x, y);
-		System.out.println(a);
+		Scanner scanner = new Scanner(System.in);
 		
-		double b = Math.abs(y);
-		System.out.println(b);
 		
-		double c = Math.sqrt(x);
-		System.out.println(c);
+		System.out.println("Enter side x: ");
+		x = scanner.nextDouble();
 		
-		double d = Math.round(x);
-		System.out.println(d);
+		System.out.println("Enter side y: ");
+		y = scanner.nextDouble();
 		
-		double e = Math.ceil(x);
-		System.out.println(e);
+		z = Math.sqrt((x*x)+(y*y));
+		System.out.println("The hypotenuse is : "+z);
 		
-		double f = Math.floor(x);
-		System.out.println(f);
+		scanner.close();
+		
 	}
 }
