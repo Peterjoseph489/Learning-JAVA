@@ -28,6 +28,7 @@ public class MathMethods {
 //		double f = Math.floor(x);
 //		System.out.println(f);
 		
+		
 		double x;
 		double y;
 		double z;
