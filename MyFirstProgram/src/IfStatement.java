@@ -12,8 +12,7 @@ public class IfStatement {
 			System.out.println("You are not an adult!");
 		} else if (age >=13) {
 			System.out.println("You are a teenager!");
-		} 
-		else {
+		} else {
 			System.out.println("You are not an adult!");
 		}
 	}
