@@ -21,9 +21,8 @@ public class SwitchCase {
 		break;
 		case "Saturday": System.out.println("It is Saturday!");
 		break;
+		default: System.out.println("That is not a day!");
 		}
-		
-		
 		
 	}
 }
